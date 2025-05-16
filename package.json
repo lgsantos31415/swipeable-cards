@@ -1,7 +1,7 @@
 {
-  "name": "react-native-swipeable-cards",
-  "version": "0.1.0",
-  "description": "swipeable cards",
+  "name": "react-native-swipeable-cards-lgsantos31415",
+  "version": "0.0.1",
+  "description": "",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
   "exports": {
@@ -43,7 +43,9 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "tinder-cards",
+    "swipe"
   ],
   "repository": {
     "type": "git",
@@ -84,7 +86,9 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-gesture-handler": "^2.25.0",
+    "react-native-reanimated": "^3.17.5"
   },
   "workspaces": [
     "example"
